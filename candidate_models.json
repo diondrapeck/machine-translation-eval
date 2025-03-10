@@ -1,0 +1,5 @@
+{
+    "gemini": ["gemini-2.0-flash"],
+    "openai": ["gpt-4-turbo", "gpt-4"],
+    "azure": ["gpt-4o", "gpt-35-turbo"]
+}

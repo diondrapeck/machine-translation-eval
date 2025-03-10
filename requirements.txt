@@ -1,0 +1,6 @@
+sacrebleu>=2.0.0
+openai
+requests
+sacrebleu
+google-genai
+dotenv
