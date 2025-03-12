@@ -1,6 +1,4 @@
-sacrebleu>=2.0.0
-openai
-requests
-sacrebleu
-google-genai
-dotenv
+google-genai==1.5.0
+openai==1.66.2
+python-dotenv==1.0.1
+sacrebleu==2.5.1
