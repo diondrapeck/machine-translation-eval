@@ -9,7 +9,7 @@ All you need are model deployments in Gemini, Azure OpenAI, and/or OpenAI APIs.
 1. Clone the repository:
 
     ```
-    git clone https://github.com/yourusername/Machine-Translation-Eval.git
+    git clone https://github.com/diondrapeck/machine-translation-eval.git
     cd Machine-Translation-Eval
     ```
 
