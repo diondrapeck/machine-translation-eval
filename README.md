@@ -4,8 +4,6 @@ This repository contains a benchmarking script for evaluating different machine 
 
 All you need are model deployments in Gemini, Azure OpenAI, and/or OpenAI APIs.
 
-![terminal output](./terminal_output_example.png)
-
 ## How to Use
 
 1. Clone the repository:
