@@ -1,4 +1,3 @@
-import os
 import random
 import json
 import argparse
@@ -17,10 +16,8 @@ parser.add_argument("--target_language", type=str, help="Target language ISO cod
 parser.add_argument("--chunk_size", type=int, default=500, help="Size of text chunks for translation")
 args = parser.parse_args()
 
-# Load API keys
+# Load .env file
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
 
 # Set languages
 SOURCE_LANGUAGE = args.source_language
