@@ -10,7 +10,7 @@ All you need are model deployments in Gemini, Azure OpenAI, and/or OpenAI APIs.
 
     ```
     git clone https://github.com/diondrapeck/machine-translation-eval.git
-    cd Machine-Translation-Eval
+    cd machine-translation-eval
     ```
 
 2. Create and activate a virtual environment:
@@ -27,7 +27,7 @@ All you need are model deployments in Gemini, Azure OpenAI, and/or OpenAI APIs.
     pip install -r requirements.txt
     ```
 
-4. Set up your environment variables by creating a [.env](http://_vscodecontentref_/0) file in the root directory of the project and adding your API keys. You only need to supply variables for the service providers your models are deployed on:
+4. Set up your environment variables by creating a .env file in the root directory of the project and adding your API keys. You only need to supply variables for the service providers your models are deployed on:
 
     ```env
     OPENAI_API_KEY = <>
